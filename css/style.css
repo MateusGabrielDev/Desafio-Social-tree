@@ -1,0 +1,71 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 80px;
+  gap: 35px;
+}
+
+#Perfil {
+  /* Tamanho */
+  width: 206px;
+  height: 206px;
+  /* Posição */
+  /* cor de fundo */
+  background-color: white;
+  /* Borda */
+  border-radius: 96px;
+  box-sizing: border-box;
+  border: 2px solid #BB99DD;
+  padding: 1px;
+}
+
+#img {
+  background-image: url(/assets/IMG_20190316_232218_479.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border-color: #BB99DD;
+}
+
+.redes {
+  display: flex;
+  /* margin-top: 20px; */
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #BB99DD;
+  box-sizing: border-box;
+  border: 2px solid #BB99DD;
+  border-radius: 4px;
+  width: 326px;
+  height: 49px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.redes:hover {
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 30px;
+}
